@@ -63,6 +63,34 @@ img {
   /* box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.1); */
 }
 
+.site-header {
+  background-color: #252934;
+  height: 100vh;
+}
+
+.site-header-title {
+  color: #fff;
+  margin: 0;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 30%;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.site-header-link {
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid #fff;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 15px 35px;
+  margin-left: 40%;
+}
+
+.header-link-img {
+  margin-left: 15px;
+}
 
 
 
