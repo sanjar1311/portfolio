@@ -78,6 +78,10 @@ img {
   letter-spacing: 2px;
 }
 
+.user-name {
+  color: #E31B6D;
+}
+
 .site-header-link {
   color: #fff;
   background-color: transparent;
@@ -88,10 +92,24 @@ img {
   margin-left: 40%;
 }
 
-.header-link-img {
-  margin-left: 15px;
+.fff{
+  fill: #fff;
 }
 
+.svg {
+  width: 17px;
+  margin-left: 15px;
+  transition: transform .3s ease;
+}
+
+.site-header-link:hover .svg{
+  transform: rotate(90deg);
+}
+
+.site-header-link:hover {
+  background-color: #0ABFC6;
+  border: 3px solid #0ABFC6;
+}
 
 
 
