@@ -55,7 +55,7 @@ img {
 }
 
 .container {
-  max-width: 1250px;
+  max-width: 1300px;
   padding-left: 25px;
   padding-right: 25px;
   margin-left: auto;
@@ -109,6 +109,50 @@ img {
 .site-header-link:hover {
   background-color: #0ABFC6;
   border: 3px solid #0ABFC6;
+}
+
+    /* ABOUT */
+
+.about {
+  height: 100vh;
+}
+
+.site-navbar {
+  background-color: #1B242F;
+  position: relative;
+}
+
+.nav-item::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: 40;
+  height: 5px;
+  top: 100%;
+  display: block;
+  width: 100%;
+  background-color: #0ABFC6;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 26px;
+  padding: 10px 0;
+  margin-right: 35px;
+  display: inline-block;
+}
+
+.nav-link:hover,
+.active {
+  color: #AB1E5B;
 }
 
 
